@@ -92,3 +92,7 @@ http://127.0.0.1:5000
 ## Fallback Handling
 
 If user input does not match any predefined intent, Gemini AI generates a contextual response.
+## Screenshots:
+<img width="773" height="771" alt="Screenshot 2026-06-14 at 5 05 16 PM" src="https://github.com/user-attachments/assets/4db47c80-8592-43a0-b114-918222342fdc" />
+
+<img width="773" height="695" alt="Screenshot 2026-06-14 at 5 05 33 PM" src="https://github.com/user-attachments/assets/5d4040eb-1c5e-44e8-97b6-212e5ca4b1db" />
