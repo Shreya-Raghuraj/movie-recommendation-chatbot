@@ -46,10 +46,10 @@ git clone <https://github.com/Shreya-Raghuraj/movie-recommendation-chatbot>
 2. Install dependencies
 
 ```bash
-pip install flask scikit-learn google-genai
+pip3 install flask scikit-learn google-genai
 ```
 
-3. Add Gemini API key in `gemini.py`
+3. Add Gemini API key in `gemini.py` [from google AI stuido]
 
 4. Run the application
 
