@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hello! 👋 Tell me your favorite genre and I'll recommend movies.",
+        "Hi there! 🎬 What kind of movie are you looking for?"
+      ]
+    },
+
+    {
+      "tag": "action",
+      "patterns": [
+        "action movie",
+        "recommend action movie",
+        "action films",
+        "something exciting"
+      ],
+      "responses": [
+        "🔥 Try John Wick, Mad Max: Fury Road, The Dark Knight"
+      ]
+    },
+
+    {
+      "tag": "comedy",
+      "patterns": [
+        "comedy movie",
+        "funny movie",
+        "make me laugh",
+        "humor movie"
+      ],
+      "responses": [
+        "😂 Try The Hangover, Superbad, or 21 Jump Street."
+      ]
+    },
+
+    {
+      "tag": "horror",
+      "patterns": [
+        "horror movie",
+        "scary movie",
+        "ghost movie",
+        "thriller horror"
+      ],
+      "responses": [
+        "👻 Try The Conjuring, Obssesion , Passenger ."
+      ]
+    },
+
+    {
+
+      "tag": "romance",
+      "patterns": [
+        "romantic movie",
+        "love story",
+        "romance movie",
+        "date night movie"
+      ],
+      "responses": [
+        "❤️ Try La La Land, The Notebook, or Before Sunrise."
+      ]
+    },
+
+    {
+      "tag": "scifi",
+      "patterns": [
+        "sci fi movie",
+        "science fiction",
+        "space movie",
+        "future movie"
+      ],
+      "responses": [
+        "🚀 Try Interstellar, Arrival, or Blade Runner 2049."
+      ]
+    },
+
+    {
+      "tag": "thriller",
+      "patterns": [
+        "thriller movie",
+        "suspense movie",
+        "mind bending movie"
+      ],
+      "responses": [
+        "😱 Try Gone Girl, Shutter Island, or Se7en."
+      ]
+    },
+
+    {
+      "tag": "animation",
+      "patterns": [
+        "animated movie",
+        "cartoon movie",
+        "animation film"
+      ],
+      "responses": [
+        "🎨 Try Coco, Spider-Man: Into the Spider-Verse, or Toy Story."
+      ]
+    },
+
+    {
+      "tag": "family",
+      "patterns": [
+        "family movie",
+        "movie for kids",
+        "watch with family"
+      ],
+      "responses": [
+        "👨‍👩‍👧‍👦 Try Finding Nemo, Encanto, or The Incredibles."
+      ]
+    },
+
+    {
+      "tag": "bollywood",
+      "patterns": [
+        "bollywood movie",
+        "hindi movie",
+        "indian movie"
+      ],
+      "responses": [
+        "🇮🇳 Try 3 Idiots, Zindagi Na Milegi Dobara, or Dangal."
+      ]
+    },
+
+    {
+      "tag": "toprated",
+      "patterns": [
+        "best movie",
+        "top rated movie",
+        "must watch movie",
+        "great movie"
+      ],
+      "responses": [
+        "⭐ Must-watch movies: The Shawshank Redemption, The Godfather, and Inception."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "exit"
+      ],
+      "responses": [
+        "👋 Goodbye! Enjoy your movie.",
+        "See you later! 🍿"
+      ]
+    }
+  ]
+}
