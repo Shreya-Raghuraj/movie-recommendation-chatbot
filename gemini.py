@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client("api_key="YOUR_API_KEY" ")
+client = genai.Client(api_key="YOUR_API_KEY")
 
 def ask_gemini(prompt):
     response = client.models.generate_content(
