@@ -40,16 +40,31 @@ movie-recommendation-chatbot/
 1. Clone the repository
 
 ```bash
-git clone <https://github.com/Shreya-Raghuraj/movie-recommendation-chatbot>
+git clone <repository-url>
+cd movie-recommendation-chatbot
 ```
 
 2. Install dependencies
 
 ```bash
-pip3 install flask scikit-learn google-genai
+pip install flask scikit-learn google-genai
 ```
 
-3. Add Gemini API key in `gemini.py` [from google AI stuido]
+3. Add your Gemini API key
+
+In `gemini.py`, replace:
+
+```python
+api_key="YOUR_API_KEY"
+```
+
+with your own Gemini API key.
+
+Alternatively, use an environment variable:
+
+```bash
+export GEMINI_API_KEY="YOUR_API_KEY"
+```
 
 4. Run the application
 
@@ -57,9 +72,9 @@ pip3 install flask scikit-learn google-genai
 python app.py
 ```
 
-5. Open
+5. Open the chatbot in your browser:
 
-```
+```text
 http://127.0.0.1:5000
 ```
 
