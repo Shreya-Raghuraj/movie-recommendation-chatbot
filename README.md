@@ -40,7 +40,7 @@ movie-recommendation-chatbot/
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Shreya-Raghuraj/movie-recommendation-chatbot>
 cd movie-recommendation-chatbot
 ```
 
